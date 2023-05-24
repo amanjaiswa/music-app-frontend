@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <title>React App</title>
+  </head>
+  <style>
+    #preloader {
+      background: url(images/9gu9-unscreen.gif) no-repeat center center;
+      background-color: black;
+      height: 100vh;
+      width: 100%;
+      position: fixed;
+      z-index: 100;
+    }
+  </style>
+  <body>
+    <div id="preloader"></div>
+
+    <div id="root"></div>
+  </body>
+
+  <script>
+    var loader = document.getElementById("preloader");
+
+    setTimeout(function () {
+      loader.style.display = "none";
+    }, 3000);
+
+    // window.addEventListener("load", function () {
+    //   loader.style.display = "none";
+    // });
+
+    let audio = document.getElementById("myAudio");
+    let playButton = audio.controls[0]; // Access the play button element
+
+    playButton.addEventListener("click", function () {
+      // Your code to execute when the play button is clicked
+      console.log("Play button clicked!");
+    });
+  </script>
+</html>

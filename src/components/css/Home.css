@@ -1,0 +1,233 @@
+.container {
+  padding: 20px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-select {
+  margin-right: 10px;
+  width: 150px;
+}
+
+.search-input {
+  margin-right: 10px;
+  flex-grow: 1;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
+@import url(https://weloveiconfonts.com/api/?family=iconicfill);
+
+/* iconicfill */
+[class*="iconicfill-"]:before {
+  font-family: "IconicFill", sans-serif;
+}
+
+* {
+  font-family: Roboto Condensed;
+}
+
+.content {
+  height: 400px;
+  width: 300px;
+  background: rgb(3, 164, 84);
+  background: linear-gradient(
+    360deg,
+    rgb(81, 85, 83) 0%,
+    rgb(54, 56, 55) 35%,
+    rgb(133, 138, 135) 100%
+  );
+  border-radius: 10px;
+  box-shadow: 0px 0px 25px 0px #000;
+  margin: 0 auto;
+}
+
+.top-desc {
+  height: 15%;
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.album-pp {
+  height: 60%;
+  width: 80%;
+  margin: 0 auto;
+  background: #fff;
+  background-size: 200%;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  position: relative;
+}
+
+.song-name {
+  width: 100%;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  bottom: 0px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  color: #fff;
+}
+
+.song-name span {
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.song-name a {
+  padding: 5px;
+  font-size: 11pt;
+  color: #fff;
+}
+
+.song-info {
+  height: 20px;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.song-info span:first-child {
+  color: #fff;
+  position: relative;
+  margin-left: 30px;
+}
+
+.song-info span:nth-child(2) {
+  color: #fff;
+  cursor: pointer;
+}
+
+.song-info span:nth-child(2):hover {
+  opacity: 0.9;
+}
+
+.song-length {
+  float: right;
+  position: relative;
+  top: 8px;
+  height: 3px;
+  left: -65px;
+  width: 55%;
+  background: #fff;
+}
+.song-info span:last-child {
+  color: #fff;
+  position: relative;
+  left: 167px;
+}
+
+.album-desc {
+  height: 15%;
+  color: #fff;
+}
+
+.album-desc ul {
+  list-style: none;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.album-desc ul li {
+  float: left;
+  font-size: 25pt;
+  margin: 0 auto;
+  margin-top: 5px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  padding: 5px;
+  border-radius: 50%;
+  transition: 300ms all;
+  cursor: pointer;
+}
+
+.album-desc ul li:not(:last-child) {
+  margin-right: 40px;
+}
+
+.album-desc ul li:hover {
+  background: rgba(0, 255, 0, 0.2);
+}
+
+.top-desc a:first-child {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20pt;
+  position: relative;
+  padding-left: 10px;
+  top: 10px;
+}
+
+.top-desc a:last-child {
+  float: right;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20pt;
+  padding-left: 10px;
+  margin-top: 10px;
+  padding-right: 10px;
+  transition: 300ms all;
+}
+
+.top-desc a:last-child:hover {
+  color: red;
+}
+
+.top-desc a:nth-child(2) {
+  text-align: center;
+  margin-left: 50px;
+  position: relative;
+  top: 5px;
+  color: #fff;
+  text-decoration: none;
+}
+
+h2 {
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+  padding-bottom: 20px;
+  color: #cacaca;
+}
+
+.card-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-count: 2;
+  gap: 2rem;
+}
+.song-info {
+  margin-left: -30px;
+}
+.img-set {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  padding-bottom: -4rem;
+  margin-bottom: -2rem;
+  border: 2px solid rgb(255, 153, 51);
+}
+
+.singer-name {
+  color: black;
+}
+.song-name {
+  background: rgb(133, 138, 135);
+  border-radius: 2rem;
+  height: 50px;
+  width: 250px;
+  margin-top: 2px;
+}
+.album-desc {
+  margin-top: 15px;
+}
